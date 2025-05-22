@@ -8,5 +8,5 @@ RUN javac server/*.java
 
 EXPOSE 12345
 
-CMD ["java", "-cp", ".", "server.ServerMain"]
+CMD ["java", "ServerMain"]
 
